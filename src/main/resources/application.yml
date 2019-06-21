@@ -1,0 +1,9 @@
+logging:  
+    pattern:    
+        console: "%m%n"
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/activiti
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
